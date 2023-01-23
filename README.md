@@ -206,3 +206,14 @@ The speed on my Late 2013 MacBook Pro is around 4.5 frames per second.
 frame=15000 fps=4.5 q=-1.0 Lsize=  644441kB time=00:04:09.98 bitrate=21118.5kbits/s speed=0.0758x
 video:644374kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.010475%
 ``` -->
+
+### Install FFMpeg under Windows Subsystem for Linux
+
+install-ffmpeg-WSL.sh
+
+```bash
+sudo add-apt-repository ppa:mc3man/trusty-media
+sudo apt-get update
+sudo apt-get dist-upgrade
+sudo apt-get install ffmpeg
+```
